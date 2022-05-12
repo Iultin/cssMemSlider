@@ -62,9 +62,30 @@ a {
   min-height: 100vh;
 }
 
+.header {
+  height: 6rem;
+}
+
 .slider {
-  width: 87.5rem;
-  height: 21.875rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 41rem;
+  max-height: 35rem;
   margin: 0 auto;
-  background-color: #000;
+  background-color: #2B2115;
+}
+
+.slider_img {
+  margin-bottom: 1.2rem;
+}
+
+.slider_text {
+  color: #FFFFFF;
+  max-width: 75%;
+  padding-bottom: 2rem;
+}
+
+.slider_text span {
+  font-size: 1.5rem;
 }
