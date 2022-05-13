@@ -161,6 +161,15 @@ a {
   }
 }
 
+@media (max-width: 479px) {
+  .slider_buttons {
+    left: 50%;
+    margin-left: -4rem;
+    /* left: 50%; */
+    bottom: 6rem;
+  }
+}
+
 .slider_button-btn {
   width: 2rem;
   height: 2rem;
