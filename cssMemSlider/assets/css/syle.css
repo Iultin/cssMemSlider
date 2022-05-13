@@ -60,6 +60,8 @@ a {
 
 .wrapper {
   min-height: 100vh;
+  max-width: 41rem;
+  margin: 0 auto;
 }
 
 .header {
@@ -70,9 +72,8 @@ a {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 41rem;
+
   max-height: 36rem;
-  margin: 0 auto;
   background-color: #2B2115;
   overflow: hidden;
 }
@@ -87,6 +88,7 @@ a {
 }
 
 .slider_footer {
+  position: relative;
   display: flex;
   justify-content: space-between
 }
@@ -97,7 +99,7 @@ a {
   display: inline-flex;
 }
 
-.slider_text-item, 
+.slider_text-item,
 .slider_text span {
   color: #FFFFFF;
   font-size: 1.5rem;
@@ -131,7 +133,12 @@ a {
 }
 
 .slider_buttons {
+  position: absolute;
   display: inline-flex;
+  right: 0;
+  bottom: 1.6rem;
+  background-color: #2B2115;
+  z-index: 1;
 }
 
 .slider_button-btn {
@@ -196,3 +203,9 @@ input[type="radio"]:checked+label span span {
 input[type="radio"]:checked:hover+label span span {
   border: 0.125rem solid #FFFFFF;
 }
+
+
+
+/* @media (max-width: 767px) {
+
+} */
