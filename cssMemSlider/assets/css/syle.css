@@ -139,8 +139,8 @@ a {
 
 @media (max-width: 767px) {
   .slider_img-item img {
-      margin-bottom: 3.6rem;
-    }
+    margin-bottom: 3.6rem;
+  }
 }
 
 .slider_buttons {
@@ -190,7 +190,8 @@ a {
 }
 
 .slider_button-btn:active .slider_button {
-  background: red;
+  background: transparent;
+  border: 0.125rem solid #71abff;
 }
 
 /* .slider_button-btn+.slider_button-btn {
